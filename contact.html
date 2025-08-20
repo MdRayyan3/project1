@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Prits Group</title>
+    <meta name="description"
+        content="Get in touch with Prits Group for inquiries about our leather and textile products, partnerships, or career opportunities.">
+
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="font-body text-neutral-800">
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="nav-logo" aria-label="Prits Group Home">
+                    <img src="https://pritsgroup.com/wp-content/themes/prits/images/logo.png" alt="Prits Group"
+                        width="120" height="48" loading="eager">
+                </a>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-menu" id="nav-menu">
+                    <a href="index.html" class="nav-link">
+                        Home
+                        <span class="nav-underline"></span>
+                    </a>
+                    <a href="company.html" class="nav-link">
+                        Company
+                        <span class="nav-underline"></span>
+                    </a>
+                    <a href="manufacturing.html" class="nav-link">
+                        Manufacturing
+                        <span class="nav-underline"></span>
+                    </a>
+                    <a href="products.html" class="nav-link">
+                        Products
+                        <span class="nav-underline"></span>
+                    </a>
+                    <a href="people.html" class="nav-link">
+                        People
+                        <span class="nav-underline"></span>
+                    </a>
+                    <a href="contact.html" class="nav-link active" aria-current="page">
+                        Contact
+                        <span class="nav-underline"></span>
+                    </a>
+                </div>
+
+                <!-- Social Links -->
+                <div class="nav-social">
+                    <a href="https://www.facebook.com/Pritsgroup" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/pritsgroup/" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://twitter.com/PritsGroup" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/prits-group-72548a241/" class="social-link"
+                        aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-expanded="false" aria-controls="mobile-menu"
+                    aria-label="Toggle navigation menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobile-menu" role="menu">
+                <a href="index.html" class="mobile-link" role="menuitem">Home</a>
+                <a href="company.html" class="mobile-link" role="menuitem">Company</a>
+                <a href="manufacturing.html" class="mobile-link" role="menuitem">Manufacturing</a>
+                <a href="products.html" class="mobile-link" role="menuitem">Products</a>
+                <a href="people.html" class="mobile-link" role="menuitem">People</a>
+                <a href="contact.html" class="mobile-link" role="menuitem">Contact</a>
+
+                <div class="mobile-social">
+                    <a href="https://www.facebook.com/Pritsgroup" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/pritsgroup/" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://twitter.com/PritsGroup" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/prits-group-72548a241/" class="social-link"
+                        aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Contact Us</h1>
+                <p class="page-subtitle">We'd love to hear from you. Get in touch with our team</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" aria-label="Contact Form and Information">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-container">
+                        <h2 class="section-title">Send us a Message</h2>
+                        <form class="contact-form" id="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name *</label>
+                                <input type="text" id="name" name="name" class="form-input" required
+                                    aria-describedby="name-error">
+                                <div class="form-error" id="name-error" role="alert"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-input" required
+                                    aria-describedby="email-error">
+                                <div class="form-error" id="email-error" role="alert"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company" class="form-label">Company</label>
+                                <input type="text" id="company" name="company" class="form-input">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject *</label>
+                                <select id="subject" name="subject" class="form-select" required
+                                    aria-describedby="subject-error">
+                                    <option value="">Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="products">Product Information</option>
+                                    <option value="partnership">Partnership Opportunity</option>
+                                    <option value="careers">Career Opportunities</option>
+                                    <option value="support">Support</option>
+                                </select>
+                                <div class="form-error" id="subject-error" role="alert"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="6" required
+                                    aria-describedby="message-error"></textarea>
+                                <div class="form-error" id="message-error" role="alert"></div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">
+                                Send Message
+                                <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <h2 class="section-title">Get in Touch</h2>
+                        <p class="contact-description">
+                            Ready to start a conversation? We're here to help with any questions
+                            about our products, services, or potential partnerships.
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h3 class="contact-title">Address</h3>
+                                    <p class="contact-text">
+                                        Plot No. 123, Industrial Area<br>
+                                        Gurgaon, Haryana 122001<br>
+                                        India
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone" aria-hidden="true"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h3 class="contact-title">Phone</h3>
+                                    <p class="contact-text">
+                                        <a href="tel:+911234567890" class="contact-link">+91 12345 67890</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h3 class="contact-title">Email</h3>
+                                    <p class="contact-text">
+                                        <a href="mailto:info@pritsgroup.com"
+                                            class="contact-link">info@pritsgroup.com</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock" aria-hidden="true"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h3 class="contact-title">Business Hours</h3>
+                                    <p class="contact-text">
+                                        Monday - Friday: 9:00 AM - 6:00 PM<br>
+                                        Saturday: 9:00 AM - 2:00 PM<br>
+                                        Sunday: Closed
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <h3 class="contact-title">Follow Us</h3>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/Pritsgroup" class="social-link" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://www.instagram.com/pritsgroup/" class="social-link"
+                                    aria-label="Instagram">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://twitter.com/PritsGroup" class="social-link" aria-label="Twitter">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/prits-group-72548a241/" class="social-link"
+                                    aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section section-light" aria-label="Frequently Asked Questions">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <p class="section-description">
+                        Find answers to common questions about our products and services
+                    </p>
+                </div>
+
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" aria-controls="faq-1">
+                            What types of products do you manufacture?
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="faq-answer" id="faq-1">
+                            <p>
+                                We specialize in leather garments, textile apparel, and leather accessories
+                                including belts, bags, and boots. Our products are crafted with the finest
+                                materials and attention to detail.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" aria-controls="faq-2">
+                            Do you offer custom manufacturing services?
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="faq-answer" id="faq-2">
+                            <p>
+                                Yes, we offer custom manufacturing services for brands and retailers.
+                                Our team can work with your designs or help create new products
+                                tailored to your specifications.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" aria-controls="faq-3">
+                            What is your minimum order quantity?
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="faq-answer" id="faq-3">
+                            <p>
+                                Minimum order quantities vary depending on the product type and complexity.
+                                Please contact us with your specific requirements for a detailed quote.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" aria-controls="faq-4">
+                            Do you ship internationally?
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="faq-answer" id="faq-4">
+                            <p>
+                                Yes, we ship our products to customers worldwide. We work with trusted
+                                logistics partners to ensure safe and timely delivery of your orders.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="https://pritsgroup.com/wp-content/themes/prits/images/logo.png" alt="Prits Group"
+                        class="footer-logo" loading="lazy">
+                </div>
+
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/Pritsgroup" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/pritsgroup/" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://twitter.com/PritsGroup" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/prits-group-72548a241/" class="social-link"
+                        aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <div class="footer-values">
+                    <span class="footer-tag">Progressive</span>
+                    <span class="footer-tag">Reliable</span>
+                    <span class="footer-tag">Innovative</span>
+                    <span class="footer-tag">Teamwork</span>
+                    <span class="footer-tag">Solutions</span>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Prits Group Pvt. Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>
